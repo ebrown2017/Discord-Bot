@@ -8,7 +8,7 @@ function filterCheck(message) {
       let wordsList = JSON.parse(data);
 
       for (i in wordsList.words) {
-        if (messageString === wordsList.words[i].toLowerCase()) {
+        if (messageString.includes(wordsList.words[i].toLowerCase())) {
           message.delete();
         }
       }
