@@ -5,6 +5,7 @@ module.exports = {
       message.reply( 'Supported Commands: ' + "\n" +
                     '.censorAdd (word) - adds word to censor filter' + "\n" +
                     '.censorRemove (word) - removes word from censor filter' + "\n" +
-                    '.censorRemoveAll - removes all words from censor filter');
+                    '.censorRemoveAll - removes all words from censor filter' + "\n" +
+                    '.censorList - DMs the list of censored words');
     },
 };
