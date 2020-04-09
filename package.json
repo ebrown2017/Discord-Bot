@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "Discord Bot for modertating our server",
+  "main": "DiscordBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebrown2017/Discord-Bot.git"
+  },
+  "author": "Eric Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ebrown2017/Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/ebrown2017/Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^12.1.1"
+  }
+}
